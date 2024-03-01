@@ -1,0 +1,183 @@
+/* Styles for Mobile Devices (Smartphones) */
+@media screen and (width <= 767px) {
+  .loginContainer {
+    background-image: url("../assets/login-bg-1.svg");
+    border-bottom: 80px;
+    height: 20vh;
+    width: 103%;
+    border-bottom-left-radius: 80px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    padding-top: 210px;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .logo {
+    margin-top: -110px;
+    margin-left: 90px;
+    position: absolute;
+    color: white;
+  }
+
+  .logoImage {
+    margin-bottom: 20px;
+  }
+
+  .logoHeading {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 5%;
+    top: 50%;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    z-index: 999;
+    background-color: white;
+  }
+
+  .errorMessage {
+    color: red;
+    margin-top: 26px;
+  }
+
+ .formBox {
+    margin-top: -30px;
+  }
+}
+
+/* Styles for Tablets */
+@media screen and (width >= 768px) and (width <= 1024px) {
+
+  /* Your CSS styles for tablets go here */
+  .loginContainer {
+    background-image: url("../assets/login-bg-1.svg");
+    border-bottom: 80px;
+    height: 30vh;
+    width: 103%;
+    border-bottom-left-radius: 80px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    padding-top: 210px;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .logo {
+    margin-top: -30px;
+    margin-left: 300px;
+    position: absolute;
+    color: white;
+  }
+
+  .logoImage {
+    margin-bottom: 20px;
+  }
+
+  .logoHeading {
+    font-size: 16px;
+  }
+
+  .card {
+    height: 422px;
+    width: 410px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 7px 18px 0 rgb(2 118 179 / 13%);
+    inset: 350px 478px 132px 198px;
+    position: absolute;
+    padding: 5px;
+    z-index: 999;
+  }
+
+  .errorMessage {
+    color: red;
+    margin-top: 26px;
+  }
+
+ .formBox {
+    margin-top: -30px;
+  }
+}
+
+/* Styles for Desktops */
+@media screen and (width >= 1025px) {
+
+  /* Your CSS styles for desktops go here */
+  .loginContainer {
+    width: 100%;
+    align-items: center;
+  }
+
+  .banner {
+    height: 472px;
+    width: 100%;
+    position: relative;
+  }
+
+  .logoImage {
+    height: 76px;
+    width: 85px;
+    position: absolute;
+    inset: 70px 640px 622px 641px;
+  }
+
+  .logoHeading {
+    height: 22px;
+    width: 205px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    inset: 166px 580px 284px 587px;
+  }
+
+  .card {
+    height: 422px;
+    width: 410px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 7px 18px 0 rgb(2 118 179 / 13%);
+    inset: 214px 478px 132px;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    z-index: 999;
+  }
+
+  .heading {
+    color: #3f3f3f;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .loginbutton {
+    margin-top: 16px;
+    width: 40%;
+    border-radius: 50px;
+  }
+
+  .passforget {
+    text-align: right;
+  }
+
+ .formBox {
+    margin-top: -30px;
+  }
+
+  .errorMessage {
+    margin-top: 65px !important;
+    margin-left: 147px;
+    padding-bottom: 10px;
+  }
+}

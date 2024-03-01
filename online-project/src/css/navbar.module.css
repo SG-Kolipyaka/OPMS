@@ -1,0 +1,223 @@
+@media screen and (width <= 768px) {
+  .NavHeader {
+    position: fixed;
+    top: initial;
+    bottom: 0;
+    width: 100%;
+    z-index: 1300;
+    height: 56px;
+    border-radius: 30px 30px 0 0;
+    background-color: #fff;
+    box-shadow: 0 3px 11px 0 rgb(2 118 179 / 24%);
+  }
+
+  .NavContainer {
+    height: var(--header-height);
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: none;
+  }
+
+  .DashboardImg {
+    padding: 0;
+    padding-top: 19px;
+    padding-bottom: 17px;
+  }
+
+  .ProjectListImg {
+    padding: 0;
+    padding-top: 19px;
+    padding-bottom: 17px;
+  }
+
+  .AddProjectImg {
+    padding: 0;
+    padding-top: 19px;
+    padding-bottom: 17px;
+  }
+
+  #logout {
+    display: none;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .logout {
+    display: none;
+  }
+
+  .activelink {
+    display: none;
+  }
+
+  .activelink1 {
+    display: none;
+  }
+
+  .activelinksmall1 {
+    height: 3px;
+    width: 30px;
+    border-radius: 52px 0 0 52px;
+    background-color: #025aab;
+    margin-top: -10px;
+  }
+
+  .activelinksmall {
+    height: 5px;
+    width: 30px;
+    border-radius: 52px 0 0 52px;
+    background-color: #025aab;
+    margin-top: -10px;
+  }
+}
+
+@media screen and (width >= 768px) and (width <= 1024px) {
+  .NavHeader {
+    position: fixed;
+    top: initial;
+    bottom: 0;
+    width: 100%;
+    z-index: 1300;
+    height: 56px;
+    border-radius: 30px 30px 0 0;
+    background-color: #fff;
+    box-shadow: 0 3px 11px 0 rgb(2 118 179 / 24%);
+  }
+
+  .NavContainer {
+    height: var(--header-height);
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: none;
+  }
+
+  .DashboardImg {
+    padding: 0;
+    padding-top: 19px;
+    padding-bottom: 17px;
+  }
+
+  .ProjectListImg {
+    padding: 0;
+    padding-top: 19px;
+    padding-bottom: 17px;
+  }
+
+  .AddProjectImg {
+    padding: 0;
+    padding-top: 19px;
+    padding-bottom: 17px;
+  }
+
+  #logout {
+    display: none;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .logout {
+    display: none;
+  }
+
+  .activelink {
+    display: none;
+  }
+
+  .activelink1 {
+    display: none;
+  }
+
+  .activelinksmall1 {
+    height: 3px;
+    width: 30px;
+    border-radius: 52px 0 0 52px;
+    background-color: #025aab;
+    margin-top: -10px;
+  }
+
+  .activelinksmall {
+    height: 5px;
+    width: 30px;
+    border-radius: 52px 0 0 52px;
+    background-color: #025aab;
+    margin-top: -10px;
+  }
+}
+
+@media screen and (width >= 1025px) {
+  .NavHeader {
+    height: 768px;
+    width: 58px;
+    background-color: #fff;
+  }
+
+  .NavContainer {
+    padding-top: 256px;
+    align-items: center;
+    padding-bottom: 41px;
+
+  }
+
+  .DashboardImg {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 41px;
+  }
+
+  .ProjectListImg {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 39px;
+  }
+
+  .AddProjectImg {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 28.5px;
+  }
+
+  hr {
+    box-sizing: border-box;
+    height: 1px;
+    width: 33px;
+    border: 1px solid #979797;
+    opacity: 0.53;
+  }
+
+  .logout {
+    margin-top: 190px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .activelink {
+    height: 31px;
+    width: 5px;
+    border-radius: 0 52px 52px 0;
+    background-color: #025aab;
+    margin-bottom: -25px;
+  }
+
+  .activelink1 {
+    height: 31px;
+    width: 5px;
+    border-radius: 0 52px 52px 0;
+    background-color: #025aab;
+    margin-bottom: -55px;
+    margin-top: 38.5px;
+  }
+
+  .activelinksmall1 {
+    display: none;
+  }
+
+  .activelinksmall {
+    display: none;
+  }
+}

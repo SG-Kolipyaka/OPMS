@@ -1,0 +1,264 @@
+/* Styles for Mobile Devices (Smartphones) */
+@media screen and (width <= 767px) {
+  .logoutform {
+    position: fixed;
+    margin-left: 130px;
+    margin-top: 7px;
+    z-index: 1000;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  .projectForm {
+    width: 100%;
+    margin-left: 0;
+    background-color: #f3f5f7;
+    padding-bottom: 60px;
+  }
+
+
+  #heading2 {
+    margin-top: 7px;
+    color: white;
+    margin-left: 20px;
+    position: fixed;
+    z-index: 1100;
+  }
+
+  .addSection {
+    background-color: #f3f5f7;
+    width: 100%;
+    height: 1200px;
+  }
+
+ .formikForm{
+    background-color: #f3f5f7;
+  }
+
+ .formGroup {
+    height: auto !important;
+    width: 328px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    box-shadow: 0 7px 18px 0 rgb(2 118 179 / 13%) !important;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    margin: auto;
+  }
+
+  #form {
+    box-sizing: border-box !important;
+    height: 70px !important;
+    width: 310px !important;
+    border: none !important;
+    border-radius: 6px !important;
+    margin: auto;
+  }
+
+  .model{
+    box-sizing: border-box !important;
+    height: 70px !important;
+    width: 310px !important;
+    border: none !important;
+    border-radius: 6px !important;
+    margin: auto;
+  }
+
+
+  .selectGroup {
+    margin-top: 50px;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .defaultStatus {
+    height: 22px;
+    color: #3f3f3f;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-left: 15px;
+    text-align: left;
+  }
+}
+
+/* Styles for Tablets */
+@media screen and (width >= 768px) and (width <= 1024px) {
+
+  /* Your CSS styles for tablets go here */
+  .logoutform {
+    position: fixed;
+    margin-left: 130px;
+    margin-top: 7px;
+    z-index: 1000;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  .projectForm {
+    width: 100%;
+    margin-left: 0;
+    background-color: #f3f5f7;
+  }
+
+
+
+  #heading2 {
+    margin-top: 7px;
+    color: white;
+    margin-left: 20px;
+    position: fixed;
+    z-index: 1100;
+  }
+
+  .addSection {
+    background-color: #f3f5f7;
+    width: 100%;
+    height: 1400px;
+  }
+
+ .formGroup {
+    height: auto !important;
+    width: 92%;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    box-shadow: 0 7px 18px 0 rgb(2 118 179 / 13%) !important;
+    padding-top: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  #form {
+    box-sizing: border-box !important;
+    height: 70px !important;
+    width: 680px !important;
+    border-radius: 6px !important;
+  }
+
+  .model{
+    box-sizing: border-box !important;
+    height: 70px !important;
+    width: 680px !important;
+    border-radius: 6px !important;
+  }
+
+  .selectGroup {
+    margin-top: 40px;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .defaultStatus {
+    height: 22px;
+    color: #3f3f3f;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-left: 15px;
+    text-align: left;
+  }
+}
+
+/* Styles for Desktops */ 
+@media screen and (width >= 1025px) {
+
+  /* Your CSS styles for desktops go here */
+  .break {
+    display: none;
+  }
+
+  #text {
+    width: 714px;
+  }
+
+  .section{
+    margin-bottom: -2px;
+  }
+
+  .addSection {
+    text-align: center;
+    display: flex;
+    height: 950px;
+    justify-content: space-between;
+    background-color: #f3f5f7;
+    width: 100%;
+  }
+
+  .projectForm {
+    background-color: #f3f5f7;
+  }
+
+  .breaker {
+    display: none;
+  }
+
+ .formGroup {
+    inset: 106px 19px 14px 79px;
+    position: absolute;
+    padding: 10px;
+    height: 796px;
+    width: 1238px;
+    padding-right: 20px;
+    padding-left: 18px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 7px 18px 0 rgb(2 118 179 / 13%);
+  }
+
+  #form {
+    box-sizing: border-box !important;
+    height: 70px !important;
+    width: 714px !important;
+    border-radius: 6px !important;
+  }
+
+ .formInput {
+    height: 48px !important;
+    width: 337px !important;
+    margin-right: 40px !important;
+    margin-bottom: 30px !important;
+  }
+
+  label {
+    font-weight: lighter;
+  }
+
+ #submitButton {
+    left: 42.5%;
+    bottom: 428px;
+  }
+
+  .selectGroup {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    width: 80% !important;
+    margin-top: 34px !important;
+  }
+
+  .defaultStatus {
+    height: 22px;
+    margin-left: 410px;
+    color: #3f3f3f;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+}
